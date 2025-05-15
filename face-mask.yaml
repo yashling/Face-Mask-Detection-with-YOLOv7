@@ -1,0 +1,10 @@
+
+train: data/face_mask_dataset/images/train  
+val: data/face_mask_dataset/images/val  
+test: data/face_mask_dataset/images/test 
+
+# number of classes
+nc: 3
+
+# class names
+names: ['Mask', 'No Mask', 'Bad Mask' ]
